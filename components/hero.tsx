@@ -3,11 +3,11 @@
 export default function Hero({ isLoaded }: { isLoaded: boolean }) {
   return (
     <section className="min-h-screen flex items-center justify-center relative overflow-hidden px-4">
-      <div className="absolute inset-0 bg-gradient-to-br from-background via-background to-primary/5" />
+      <div className="absolute inset-0 bg-linear-to-br from-background via-background to-primary/5" />
 
       {/* Grid effect */}
       <div className="absolute inset-0 opacity-5">
-        <div className="absolute inset-0 bg-[linear-gradient(0deg,transparent_24%,rgba(217,119,6,.05)_25%,rgba(217,119,6,.05)_26%,transparent_27%,transparent_74%,rgba(217,119,6,.05)_75%,rgba(217,119,6,.05)_76%,transparent_77%,transparent)] bg-[length:50px_50px]" />
+        <div className="absolute inset-0 bg-[linear-gradient(0deg,transparent_24%,rgba(217,119,6,.05)_25%,rgba(217,119,6,.05)_26%,transparent_27%,transparent_74%,rgba(217,119,6,.05)_75%,rgba(217,119,6,.05)_76%,transparent_77%,transparent)] bg-size-[50px_50px]" />
       </div>
 
       <div

@@ -15,7 +15,7 @@ export default function EventDetails() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
           <div className="p-8 rounded-2xl border border-border bg-card hover:shadow-lg transition-all duration-300">
             <div className="flex items-start gap-4">
-              <div className="w-12 h-12 rounded-full bg-primary flex items-center justify-center flex-shrink-0">
+              <div className="w-12 h-12 rounded-full bg-primary flex items-center justify-center shrink-0">
                 <Calendar className="w-6 h-6 text-white" />
               </div>
               <div>
@@ -28,7 +28,7 @@ export default function EventDetails() {
 
           <div className="p-8 rounded-2xl border border-border bg-card hover:shadow-lg transition-all duration-300">
             <div className="flex items-start gap-4">
-              <div className="w-12 h-12 rounded-full bg-secondary flex items-center justify-center flex-shrink-0">
+              <div className="w-12 h-12 rounded-full bg-secondary flex items-center justify-center shrink-0">
                 <MapPin className="w-6 h-6 text-white" />
               </div>
               <div>
@@ -41,7 +41,7 @@ export default function EventDetails() {
 
           <div className="p-8 rounded-2xl border border-border bg-card hover:shadow-lg transition-all duration-300">
             <div className="flex items-start gap-4">
-              <div className="w-12 h-12 rounded-full bg-accent flex items-center justify-center flex-shrink-0">
+              <div className="w-12 h-12 rounded-full bg-accent flex items-center justify-center shrink-0">
                 <Clock className="w-6 h-6 text-white" />
               </div>
               <div>
@@ -54,7 +54,7 @@ export default function EventDetails() {
 
           <div className="p-8 rounded-2xl border border-border bg-card hover:shadow-lg transition-all duration-300">
             <div className="flex items-start gap-4">
-              <div className="w-12 h-12 rounded-full bg-primary flex items-center justify-center flex-shrink-0">
+              <div className="w-12 h-12 rounded-full bg-primary flex items-center justify-center shrink-0">
                 <Users className="w-6 h-6 text-white" />
               </div>
               <div>
